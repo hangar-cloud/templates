@@ -1,0 +1,18 @@
+# Dependencies and build output
+node_modules/
+.next/
+.astro/
+dist/
+vendor/
+target/
+__pycache__/
+*.pyc
+.venv/
+
+# Local databases and secrets
+*.sqlite3
+.env
+
+# Railpack writes these next to the code it plans
+railpack-plan.json
+railpack-info.json
